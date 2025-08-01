@@ -1,0 +1,249 @@
+ /* :root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #007bff;
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+header {
+  background: var(--accent-color);
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#toggleMode {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.interest-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: var(--accent-color);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+.interest-list {
+  background: var(--accent-color);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.project {
+  margin-bottom: 20px;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+body.dark .project {
+  background: #1e1e1e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+} 
+*/
+
+
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --primary: #3979b9;
+}
+
+body.dark {
+  --bg: #1f1f1f;
+  --text: #f1f1f1;
+}
+#projectList li {
+  padding: 5px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+header a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+#toggleMode {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1, h2 {
+  color: var(--primary);
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags span {
+  background: var(--primary);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  width: 100%;
+}
+
+form button {
+  background: var(--primary);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: gray;
+}
+
